@@ -39,7 +39,8 @@ injectGlobal`
     font-weight: 700;
     src: local('Miriam Libre Bold'), local('MiriamLibre-Bold'), url(https://fonts.gstatic.com/s/miriamlibre/v5/DdT-798HsHwubBAqfkcBTL_X3LbrQsq_.ttf) format('truetype');
 }
-    
+
+
 html {
     box-sizing: border-box;
     font-size: 10px;
@@ -47,6 +48,7 @@ html {
 *, *:before, *:after {
     box-sizing: inherit;
 }
+
 body {
     padding: 0;
     margin: 0;
@@ -54,10 +56,12 @@ body {
     line-height: 2;
     font-family: 'Miriam Libre';
 }
+
 a {
     text-decoration: none;
     color: ${theme.black};
 }
+
 button {  font-family: 'Miriam Libre'; }
 `;
 
