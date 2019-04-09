@@ -65,7 +65,7 @@ class Page extends Component {
   render() {
     return (
       <div>
-        <ThemeProvider theme={theme}>
+        <ThemeProvider theme={theme}> 
             <StyledPage>
                 <Meta />
                 <Header />
